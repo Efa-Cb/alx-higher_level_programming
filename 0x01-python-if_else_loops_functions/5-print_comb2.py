@@ -2,5 +2,6 @@
 for i in range(100):
     if i == 99:
         print(i)
-else:
-    print(f"{}".format('0' + str(i) if i < 10 else i), end=", ")
+    else:
+        print("{}".format('0' + str(i) if i < 10 else i), end=", ")
+
