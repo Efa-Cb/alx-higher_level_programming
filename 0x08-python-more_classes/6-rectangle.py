@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# 6-rectangle.py
 """Defines a Rectangle class."""
 
 
 class Rectangle:
     """Represent a rectangle.
+
     Attributes:
         number_of_instances (int): The number of Rectangle instances.
     """
@@ -13,8 +13,9 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
+
         Args:
-            width (int): Width of  new rectangle.
+            width (int):  Width of  new rectangle.
             height (int): Height of new rectangle.
         """
         type(self).number_of_instances += 1
@@ -59,6 +60,7 @@ class Rectangle:
 
     def __str__(self):
         """Return the printable representation of the Rectangle.
+
         Represents the rectangle with the # character.
         """
         if self.__width == 0 or self.__height == 0:
