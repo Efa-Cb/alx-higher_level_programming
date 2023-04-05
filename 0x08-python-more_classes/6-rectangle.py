@@ -6,8 +6,8 @@ class Rectangle:
     """ initialize with the width and height with value checks
 
     Args:
-        width: Width  of rectangle
-        height: Height of  rectangle
+        width: Width of rectangle
+        height: Height of rectangle
 
     Return: nonezo
     """
@@ -69,4 +69,4 @@ class Rectangle:
 
     def __del__(self):
         type(self).number_of_instances -= 1
-        print("Goodbye rectangle...")
+        print("Bye rectangle...")
