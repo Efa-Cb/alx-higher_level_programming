@@ -3,7 +3,7 @@
 
 
 def say_my_name(first_name, last_name=""):
-    """ Prints out My name is <first name> <last name>
+    """ prints out My name is <first name> <last name>
 
     Args:
         first_name: nombre

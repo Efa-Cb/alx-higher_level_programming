@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-""" This is my add_integer module """
+""" My add_integer module """
 
 
 def add_integer(a, b=98):
-    """Function that returns the addition of a + b
+    """Function  returns the addition of a + b
 
     Args:
-        a: Should be an int. if not throw error
-        b: Second int. if not throw error. default val is 98.
+        a: should be an int. if not throw error
+        b: second int. if not throw error. default val is 98.
 
     Returns:
         The addition of a + b or a raised TypeError

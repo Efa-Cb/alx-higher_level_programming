@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""  Function  prints a square with the # char """
+""" Function  prints a square with the # char """
 
 
 def print_square(size):
-    """ We print a size x size square out and are happy with it
+    """ we print a size x size square out and are happy with it
 
     Args:
-        Size: the size of the square we ant printed
+        size: the size of the square we ant printed
 
     Return: no return
     """
